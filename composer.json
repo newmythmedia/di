@@ -1,0 +1,26 @@
+{
+	"name": "myth/di",
+	"type": "library",
+	"description": "A Dependency Injection container with flexible configuration.",
+	"keywords": [
+		"dependency injection"
+	],
+	"homepage": "https://github.com/newmythmedia/di",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Lonnie Ezell",
+			"email": "lonnie@newmythmedia.com",
+			"homepage": "http://newmythmedia.com",
+			"role": "Lead Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"Myth\\DI\\": "src/"
+		}
+	}
+}
