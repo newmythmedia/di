@@ -1,5 +1,7 @@
 # Dependency Injection
 
+[![Build Status](https://travis-ci.org/newmythmedia/di.svg?branch=develop)](https://travis-ci.org/newmythmedia/di)
+
 The DI Container acts as a very fast Inversion of Control container, also known as a Dependency Injection container. This allows a single instance of an object to be used in multiple areas of your application.
 
 Like many other dependency injection containers, this class allows you to store both **parameters** and **services**. Parameters are simply variables, though typically a string that can be used during one of the service configurations.
